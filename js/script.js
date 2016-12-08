@@ -2,12 +2,31 @@
 	function Contact(first, last) {
 	    this.firstName = first;
 	    this.lastName = last;
+	    this.address = [];
 	}
 	contact.prototype.fullName = function() {
-	        return this.firstName + "" + this.lastName;
+	    return this.firstName + "" + this.lastName;
 
-	    }
-	    // user interface logic
+	}
+
+	function address(street, city, county) {
+	    this.street = street;
+	    this.city = city;
+	    this.county = county;
+	}
+	var
+	function contact(first, last) {
+	    this.firstName = firstName;
+	    this.lastName = lastName;
+	    this.address = address[];
+	}
+	var
+	function address(street, city, county) {
+	    this.street = street;
+	    this.city = city;
+	    this.county = county;
+	}
+	// user interface logic
 	$(document).ready(function() {
 	    $("form#new-contact").submit(function(event) {
 	        event.preventDefault();
